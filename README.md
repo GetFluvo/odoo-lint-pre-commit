@@ -1,7 +1,7 @@
 # odoo-lint-pre-commit
 
 A [pre-commit](https://pre-commit.com/) hook for
-[odoo-lint](https://github.com/bosd/odoo-lint) (`odl`), a fast linter for
+[odoo-lint](https://github.com/GetFluvo/odoo-lint) (`odl`), a fast linter for
 Odoo addons with the checks of pylint-odoo and `oca-checks-po`.
 
 It installs the prebuilt `odoo-linter` wheel from PyPI, so nothing is
@@ -13,7 +13,7 @@ In `.pre-commit-config.yaml`:
 
 ```yaml
 repos:
-  - repo: https://github.com/bosd/odoo-lint-pre-commit
+  - repo: https://github.com/GetFluvo/odoo-lint-pre-commit
     rev: v0.1.0a20
     hooks:
       - id: odoo-lint
